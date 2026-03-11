@@ -3,8 +3,8 @@
 ## Overview (English)
 This folder contains step-by-step guides for installing and configuring operating systems:
 
-- **Windows 11 Pro** – full installation guide including setup and configuration tips.
-- **Ubuntu Linux** – full installation guide including partitions, updates, and basic configuration.
+- **Windows 11 Pro** – full installation guide including setup and configuration tips.  
+- **Ubuntu Desktop** – full installation guide including partitions, updates, and basic configuration.
 
 **Note:** All guides are written in Portuguese.
 
@@ -16,4 +16,4 @@ This folder contains step-by-step guides for installing and configuring operatin
 Esta pasta contém manuais passo a passo para instalação e configuração de sistemas operativos:
 
 - **Windows 11 Pro** – guia completo de instalação com dicas de configuração.  
-- **Linux Ubuntu** – guia completo incluindo partições, atualizações e configuração básica.
+- **Ubuntu Desktop** – guia completo incluindo partições, atualizações e configuração básica.
