@@ -53,7 +53,7 @@ Budget estimation
 
 Implementation timeline
 
-Network Diagram
+Network Diagram:
 
 Logical network diagram created using Microsoft Visio.
 
@@ -61,17 +61,14 @@ diagram/network-diagram.vsdx
 
 A preview image is also provided for quick viewing.
 
-Packet Tracer Simulation
+Packet Tracer Simulation:
 
-Network topology simulation created using Cisco Packet Tracer.
+Network topology simulation created using Cisco Packet Tracer 8.2
 
 packet-tracer/enterprise-lan-simulation.pkt
 
 A screenshot of the topology is included for easier visualization.
 
-Visual Assets
-
-Custom graphical resources used during the simulation and infrastructure visualization.
 
 images/
 
@@ -81,7 +78,7 @@ Icograms network icons used in the Packet Tracer environment
 
 Rack infrastructure design created with Visual Paradigm
 
-Project Specification
+Project Specification:
 
 Original project instructions provided for the assignment.
 
@@ -93,28 +90,12 @@ enterprise-lan-design/
 
 README.md
 
-report/
-└── enterprise-lan-design-report.pdf
 
-enunciado/
-└── project-specification.pdf
-
-diagram/
-├── network-diagram.vsdx
-└── network-diagram-preview.png
-
-packet-tracer/
-├── enterprise-lan-simulation.pkt
-└── topology-preview.png
-
-images/
-├── rack-design.png
-└── network-icons/
-
-Language
+Language:
 
 The main documentation of this project is written in Portuguese.
 
+-----------------------------------------------------------------------
 Planeamento e Implementação de Rede LAN Empresarial
 Visão Geral
 
@@ -146,6 +127,6 @@ Planeamento da infraestrutura e rack de rede
 
 Este projeto demonstra todo o processo de planeamento de uma infraestrutura de rede empresarial, desde a análise de requisitos até ao planeamento da implementação.
 
-Idioma
+Idioma:
 
 A documentação principal do projeto encontra-se em Português.
