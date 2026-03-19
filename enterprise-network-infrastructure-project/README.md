@@ -4,120 +4,126 @@
 
 ![Network Diagram](diagram/network-diagram-preview.png)
 
-## Overview
+# Enterprise Network Infrastructure Project
 
-This repository contains the final project developed for the Network Administration course.
+## 🇬🇧 Overview
 
-The objective of this project was to design and implement a complete **enterprise network infrastructure**, including network segmentation, routing, security, and centralized services.
-
-The project demonstrates practical skills in **network architecture design, routing implementation, infrastructure planning, and technical documentation**.
+This project consists of the design and implementation of an enterprise network infrastructure, simulating a real-world company environment with centralized services, secure communication, and remote access.
 
 ---
 
-## Project Components
+## 🔧 Key Features
 
-This repository includes the following materials:
+* pfSense firewall configuration
+* VPN implementation:
 
-* **Technical Report** – Detailed documentation of the project (209 pages)
-* **Network Diagram** – Infrastructure architecture designed using Visio
-* **Network Simulation** – Functional topology created with Cisco Packet Tracer
-* **Project Presentation** – PowerPoint used during the final project defense
-
----
-
-## Network Architecture
-
-The project simulates a company infrastructure composed of:
-
-* Headquarters network
-* Multiple branch offices
-* Secure connectivity between sites
-* Centralized services
-
-Key architectural concepts implemented:
-
-* Enterprise network segmentation
-* Dynamic routing
-* Secure communication between sites
-* Infrastructure redundancy
-* Service centralization
+  * Site-to-site
+  * Remote access (road warrior)
+* Dynamic routing (RIP)
+* Active Directory integration
+* Secure internal communication using BeeBEEP
+* Web access control using Squid Proxy
+* Task automation using PowerShell and Chocolatey
+* Group Policy Objects (GPO) for centralized management and security
+* Dedicated printers per department (access control)
+* Centralized NAS storage for server data
 
 ---
 
-## Technologies Used
+## 🧠 Case Study – Real-World Scenario
 
-The following technologies were implemented during the project:
+### Scenario
 
-* Cisco Packet Tracer
-* Microsoft Visio
-* Windows Server
-* Active Directory
-* Dynamic Routing (RIP)
-* VPN connectivity
-* Firewall configuration
-* Network security practices
+A company requires a secure and efficient network infrastructure to support internal operations, communication between departments, and remote access for executive staff.
 
 ---
 
-## Routing Implementation
+### Solution
 
-Dynamic routing was implemented using **RIP (Routing Information Protocol)** to allow automatic route exchange between different network segments.
+The implemented solution includes:
 
-This approach simulates a real-world enterprise environment where multiple networks must communicate efficiently.
+* Centralized authentication using Active Directory
+* Internal communication using BeeBEEP
+* Network protection using pfSense
+* Web filtering using Squid Proxy
+* Dynamic routing (RIP) for connectivity between network segments
+* Secure VPN access for remote users
 
----
+Each department is isolated in terms of resource access:
 
-## Network Design
+* Dedicated printers are assigned per department
+* Access to resources is controlled and restricted
 
-The infrastructure was designed considering:
+A NAS solution is used to:
 
-* scalability
-* redundancy
-* service availability
-* network segmentation
-
-The topology includes multiple routers, switches, and segmented networks to ensure reliable communication between headquarters and remote offices.
-
----
-
-## Repository Structure
-
-```
-enterprise-network-infrastructure-project
-│
-├── report
-│   └── network-administration-project.pdf
-│
-├── presentation
-│   └── project-presentation.pptx
-│
-├── diagram
-│   ├── network-diagram.vsdx
-│   └── network-diagram-preview.png
-│
-├── simulation
-│   └── packet-tracer-topology.pkt
-│
-└── README.md
-```
+* store server data
+* centralize backups
+* improve data availability
 
 ---
 
-## Learning Outcomes
+### Remote Access (CEO Use Case)
 
-This project allowed the development of practical skills in:
+A remote access solution was implemented specifically for the company CEO.
 
-* enterprise network design
-* routing protocols
-* infrastructure planning
-* network security principles
-* technical documentation
+The CEO uses a laptop running Fedora and connects securely to the company network when:
+
+* working from home
+* traveling
+
+Once connected via VPN:
+
+* full access to internal services is available
+* communication with departments is possible
+* internal tools operate as if inside the company network
 
 ---
 
-## Author
+### Internal Communication
 
-Rui Silva
-Network Administration Student
-Enterprise Network Infrastructure Project
+Communication between departments and locations is handled using BeeBEEP.
+
+Thanks to the integration of VPN and RIP:
+
+* all systems can communicate across the network
+* communication remains secure and internal
+
+---
+
+### System Administration & Automation
+
+To improve efficiency, system administration tasks were automated using:
+
+* PowerShell
+* Chocolatey
+
+This allows:
+
+* automated software deployment
+* system updates
+* reduced manual workload for IT
+
+---
+
+### Security & Control
+
+Security is enforced through multiple layers:
+
+* pfSense firewall rules
+* Squid Proxy for web filtering
+* Group Policy Objects (GPO) to enforce:
+
+  * user restrictions
+  * system configurations
+  * access control policies
+
+---
+
+## 📊 Project Assets
+
+* Technical Report (209 pages – Portuguese)
+* Network Diagram (Visio + image preview)
+* Packet Tracer simulation
+* Project presentation (PowerPoint)
+
 
